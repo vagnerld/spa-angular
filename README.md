@@ -1,6 +1,7 @@
 # spa-angular
 
 ### Estrutura da aplicação
+```
 app/
 ---controllers/
 ------aboutController.js
@@ -12,3 +13,4 @@ app/
 ------home.html
 ---app.js
 index.html
+```

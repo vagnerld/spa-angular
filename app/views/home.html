@@ -1,17 +1,21 @@
 <!-- home.html -->
-    <div class="jumbotron text-center">
-        <h1>Home</h1>
+<div class="jumbotron text-center">
+    <h1>Home</h1>
 
-        <p>{{ message }}</p>
+    <p>{{ message }}</p>
 
 
-        <h3>teste 1</h3>
-        <input type="text" ng-model="exemplo" placeholder="Digite algo">
-      	<p>{{ exemplo }}</p>
+    <h3>teste 1</h3>
+    <input type="text" ng-model="exemplo" placeholder="Digite algo">
+  	<p>{{ exemplo }}</p>
 
-        <h3>teste 2</h3>
-      	<button class="btn btn-default" ng-click="lover()">Clique para <i class="glyphicon glyphicon-heart"></i></button>
-      	<br />
-      	<i ng-repeat="love in loves" class="glyphicon glyphicon-heart"></i>
+    <h3>teste 2</h3>
+  	<button class="btn btn-default" ng-click="lover()">Clique para <i class="glyphicon glyphicon-heart"></i></button>
+  	<br />
 
-    </div>
+  	<i ng-repeat="love in loves" class="glyphicon glyphicon-heart">
+  		<span>{{love.name}}</span>
+
+  	</i>
+
+</div>

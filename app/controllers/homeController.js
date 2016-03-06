@@ -1,4 +1,5 @@
 app.controller('homeController', function($scope) {
+	
     $scope.message = 'Olha a home aí!';
 
     $scope.loves = [];

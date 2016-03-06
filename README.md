@@ -4,7 +4,7 @@
 ```
 ├── app
 |	├── controllers/
-|       |	├── aboutController.js
+|	|	├── aboutController.js
 |	|	├── contactController.js
 |	|	└── homeController.js
 |	├── views/
